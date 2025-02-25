@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "simple-agent"
+version = "0.1.0"
+description = ""
+authors = ["vasabi07 <vasanthanarulselvan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+langgraph = "^0.2.74"
+langchain-openai = "^0.3.6"
+fastapi = "^0.115.8"
+langchain-core = "^0.3.37"
+python-dotenv = "^1.0.1"
+uvicorn = "^0.34.0"
+langchain-community = "^0.3.18"
+wikipedia = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
